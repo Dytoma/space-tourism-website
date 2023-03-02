@@ -34,4 +34,4 @@ function Layout({ children, router }) {
     )
 }
 
-export default dynamic(() => Promise.resolve(Layout), { ssr: false })
+export default Layout
