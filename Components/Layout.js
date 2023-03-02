@@ -1,4 +1,4 @@
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
@@ -23,7 +23,7 @@ function Layout({ children, router }) {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5, ease: 'easeInOut' }}
-                            exit={{opacity: 0}}
+                            exit={{ opacity: 0 }}
                         >
                             {children}
                         </motion.main>
