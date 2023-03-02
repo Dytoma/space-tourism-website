@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/Components/Navbar";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
@@ -34,4 +34,4 @@ function Layout({ children, router }) {
     )
 }
 
-export default Layout
+export default dynamic(() => Promise.resolve(Layout), { ssr: false })
