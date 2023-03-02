@@ -1,5 +1,11 @@
-import '@/styles/globals.css'
+import '@/styles/globals.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import Layout from '../Components/Layout';
+
+export default function App({ Component, pageProps, router }) {
+  return (
+    <Layout router={router}>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }

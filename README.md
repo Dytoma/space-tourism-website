@@ -1,3 +1,100 @@
+# Frontend Mentor - Space tourism website solution
+
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Dependencies](#dependencies)
+- [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
+
+
+### Links
+
+- Solution URL: [Solution URL here](https://your-solution-url.com)
+- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Framer motion](https://www.framer.com/motion/) - For animations
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+
+
+### What I learned
+
+With this project I learned how to use Next JS and how to style the scrollbar of the browser.
+
+This is the css code for styling the scrollbar:
+
+```css
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgb(34, 26, 26);
+}
+::-webkit-scrollbar-track {
+  background-color: hsla(230, 35%, 7%, 1);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(230, 10%, 42%, 1);
+  border-radius: 100vw;
+  border: 1px solid rgb(148, 144, 147);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(230, 10%, 42%, 0.5);
+}
+* {
+  scrollbar-color: hsla(230, 10%, 42%, 1) hsla(230, 35%, 7%, 1);
+}
+```
+
+### Dependencies
+
+To install the dependencies, run ```npm install``` on your local terminal(Make sure to `cd` in to the project directory).
+
+- ```react```
+- ```react-dom```
+- ```framer-motion```
+- ```next```
+- ```tailwindcss```
+
+
+
+## Author
+
+- Frontend Mentor - [@Dytoma](https://www.frontendmentor.io/profile/Dytoma)
+- Twitter - [@OmarDytoma](https://www.twitter.com/OmarDytoma)
+
+
+## Next JS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
