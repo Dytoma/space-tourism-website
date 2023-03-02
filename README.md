@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/space-tourism-website-with-next-js-tailwind-css-and-framermotion-IHl1SBqjxE)
+- Live Site URL: [Live site URL here](https://space-tourism-website-zeta-seven.vercel.app/)
 
 ## My process
 
